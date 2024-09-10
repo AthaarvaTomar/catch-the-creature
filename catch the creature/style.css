@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "werewolf";
+    font-weight: 100;
+    color: #141E46;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    overflow: hidden;
+}
+
+.screen {
+    height: 100%;
+    width: 100%;
+    background-color: #f0d498;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all ease-out 0.6s;
+}
+
+.screen h1 {
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.screen button {
+    padding: 18px 35px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid #141E46;
+    color: #141E46;
+    transition: all ease 0.1s;
+    cursor: pointer;
+}
+
+.screen button:active {
+    scale: 0.95;
+}
+
+.screen button:hover {
+    background-color: #FF6969;
+    color: #141E46;
+    
+}
+
+.screen h2 {
+    font-size: 60px;
+    text-align: center;
+
+}
+
+.watch-container {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.watch {
+    border: 2px solid #2D132C;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    cursor: grab;
+    transition: all ease 0.3s;
+}
+
+.watch:hover {
+    background-color: #FF6969;
+}
+
+.watch:active {
+    cursor: grabbing;
+}
+
+.watch:hover h4 {
+    color: #801336;
+    transition: all ease 0.3s;
+
+}
+
+.watch h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.watch img {
+    height: 100px;
+}
+
+.time-score {
+    width: 100%;
+    padding: 25px 45px;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #2D132C;
+    justify-content: space-between;
+}
+
+.time-score h4 {
+    font-size: 22px;
+}
+
+.time-score h5 {
+    font-size: 22px;
+}
+
+.playground {
+    height: 95%;
+    width: 100%;
+    position: relative;
+}
+
+.playground img{
+    height: 100px;
+    position: absolute;
+}
+
+
+ 
